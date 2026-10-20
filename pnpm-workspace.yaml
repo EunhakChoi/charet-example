@@ -1,0 +1,3 @@
+# msw only copies its service worker on install; the SDK serves it in previews.
+allowBuilds:
+  msw: false
