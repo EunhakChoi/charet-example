@@ -41,7 +41,7 @@ export function TasksPage() {
       {error && <p className="text-sm text-red-600">{error}</p>}
       {!tasks && !error && <p className="text-sm text-muted-foreground">Loading…</p>}
       {shown && shown.length === 0 && (
-        <p className="text-sm text-muted-foreground">Nothing to do.</p>
+        <p className="text-sm text-muted-foreground">All done. Nothing left to do.</p>
       )}
       <ul className="divide-y divide-border rounded-md border border-border">
         {shown?.map((task) => (
