@@ -15,7 +15,14 @@ export function TasksPage() {
   return (
     <main className="mx-auto max-w-xl p-8">
       <header className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-semibold">Tasks</h1>
+        <div>
+          <h1 className="text-2xl font-semibold">Tasks</h1>
+          {tasks && (
+            <p className="text-sm text-muted-foreground">
+              {tasks.filter((t) => !t.done).length} open of {tasks.length}
+            </p>
+          )}
+        </div>
         <div className="flex gap-2">
           <Button
             variant={filter === "all" ? "default" : "outline"}
