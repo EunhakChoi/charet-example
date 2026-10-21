@@ -81,7 +81,7 @@ packages:
     engines: {node: '>=6.9.0'}
 
   '@charet/sdk@file:vendor/charet-sdk-0.0.0.tgz':
-    resolution: {integrity: sha512-Sb4P+RWxQyVaqQoXvfPKO26NejZ78i7Kd0Hc9Irg+R7sqlXH1dOjYSoJN7H6SiSlR4loGhtd4w/rY/NHpX+YJg==, tarball: file:vendor/charet-sdk-0.0.0.tgz}
+    resolution: {integrity: sha512-UOGIEBxMzGAgeuHFSrBqN8c89As+w4b2S9IHv/Qyxyz+y4TJL3uphQSt8xu7O0Vg0kfKD7tL/5aBd+DGb+j+/g==, tarball: file:vendor/charet-sdk-0.0.0.tgz}
     version: 0.0.0
     peerDependencies:
       msw: ^2.15.0
